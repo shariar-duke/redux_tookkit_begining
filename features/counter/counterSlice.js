@@ -24,4 +24,5 @@ const counterSlice = createSlice({
     }
 })
 
-modules.exports = counterSlice.reducer
+module.exports = counterSlice.reducer // default export kora holo counterSlice er reducer ta...
+module.exports.counterActions = counterSlice.actions // export kore holo actions gula k 
