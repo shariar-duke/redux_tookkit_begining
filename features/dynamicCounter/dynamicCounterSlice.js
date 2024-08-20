@@ -22,4 +22,4 @@ const dynamicCounterSlice = createSlice({
 })
 
 module.exports = dynamicCounterSlice.reducer ;
-module.exports.counterActions = dynamicCounterSlice.actions 
+module.exports.dynamicCounterActions = dynamicCounterSlice.actions 
