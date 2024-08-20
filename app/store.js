@@ -7,4 +7,4 @@ const store = configureStore({
     }
 })
 
-module.export = store 
+module.exports = store 
