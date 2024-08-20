@@ -11,7 +11,9 @@
   "description": "",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
+    "node-fetch": "^2.7.0",
     "redux": "^5.0.1",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1"
   }
 }
