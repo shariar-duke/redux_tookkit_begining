@@ -2,14 +2,10 @@ const store = require("./app/store.js") // store tak import kore anlam
 const {counterActions} = require("./features/counter/counterSlice")  
 const { dynamicCounterActions }= require ("./features/dynamicCounter/dynamicCounterSlice.js")
 
-console.log(`Initial State : ${JSON.stringify(store.getState())}`)
-
-
-
 
 store.subscribe(()=> 
 {
-    console.log(store.getState())
+    // console.log(store.getState())
 })
 
 // acitons for dynamicCoutner
