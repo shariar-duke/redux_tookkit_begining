@@ -24,4 +24,4 @@ const counterSlice = createSlice({
     }
 })
 
-modules.exports = counterSlice.reducers
+modules.exports = counterSlice.reducer
